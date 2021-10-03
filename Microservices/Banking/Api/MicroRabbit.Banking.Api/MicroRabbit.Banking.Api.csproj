@@ -5,7 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mediatr" Version="9.0.0" />
+    <PackageReference Include="Mediatr.Extensions" Version="0.6.0" />
+    <PackageReference Include="Mediatr.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\infra.ioc\MicroRabbit.Infra.Ioc\MicroRabbit.Infra.IoC.csproj" />
+    <ProjectReference Include="..\..\Data\MicroRabbit.Banking.Data\MicroRabbit.Banking.Data.csproj" />
   </ItemGroup>
 
 </Project>
