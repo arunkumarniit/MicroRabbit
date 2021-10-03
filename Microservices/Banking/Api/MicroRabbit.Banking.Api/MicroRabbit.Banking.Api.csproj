@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\infra.ioc\MicroRabbit.Infra.Ioc\MicroRabbit.Infra.IoC.csproj" />
     <ProjectReference Include="..\..\Data\MicroRabbit.Banking.Data\MicroRabbit.Banking.Data.csproj" />
+    <ProjectReference Include="..\..\..\..\MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj" />
   </ItemGroup>
 
 </Project>
