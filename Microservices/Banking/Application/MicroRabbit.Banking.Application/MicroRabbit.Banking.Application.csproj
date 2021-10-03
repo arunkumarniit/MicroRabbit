@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\MicroRabbit.Banking.Domain\MicroRabbit.Banking.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\Infra.Bus\MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj" />
+    <ProjectReference Include="..\..\..\..\Domain\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
